@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridgeline Hat Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <nav class="navbar">
+            <h1 class="logo">RIDGELINE</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">BUILT FOR THE EVERYDAY</p>
+                <h2>Find Your<br>Perfect Fit.</h2>
+                <p>
+                    Premium hats designed for people who live life outside,
+                    chase new opportunities, and never leave style behind.
+                </p>
+
+                <a href="#collection" class="hero-button">Shop The Collection</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="about" class="about-section">
+            <div class="about-text">
+                <p class="section-label">OUR STORY</p>
+                <h2>More Than Just A Hat.</h2>
+                <p>
+                    Ridgeline Hat Co. was created for people who want quality,
+                    comfort, and style in one hat. Every design is inspired by
+                    the outdoors and built for everyday life.
+                </p>
+
+                <button id="storyButton">Learn More</button>
+
+                <p id="storyMessage" class="hidden">
+                    Our goal is simple: create hats that look good, feel good,
+                    and hold up wherever life takes you.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=900&q=80"
+                    alt="Person wearing a classic outdoor hat"
+                >
+            </div>
+        </section>
+
+        <section id="collection" class="collection-section">
+            <div class="section-heading">
+                <p class="section-label">THE COLLECTION</p>
+                <h2>Made To Wear Anywhere.</h2>
+            </div>
+
+            <div class="hat-grid">
+
+                <article class="hat-card">
+                    <div class="hat-placeholder">01</div>
+                    <h3>The Classic</h3>
+                    <p>Clean, simple, and ready for everyday wear.</p>
+                    <span>$35</span>
+                </article>
+
+                <article class="hat-card">
+                    <div class="hat-placeholder">02</div>
+                    <h3>The Trail</h3>
+                    <p>Built for outdoor adventures and long days outside.</p>
+                    <span>$40</span>
+                </article>
+
+                <article class="hat-card">
+                    <div class="hat-placeholder">03</div>
+                    <h3>The Original</h3>
+                    <p>A timeless Ridgeline design with a bold look.</p>
+                    <span>$45</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <article>
+                <h2>Quality First.</h2>
+                <p>
+                    We believe a great hat should be comfortable enough for
+                    all-day wear and durable enough for whatever comes next.
+                </p>
+            </article>
+
+            <article>
+                <h2>Built With Purpose.</h2>
+                <p>
+                    Every Ridgeline design is created with a balance of
+                    function, simplicity, and style.
+                </p>
+            </article>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div>
+                <p class="section-label">GET IN TOUCH</p>
+                <h2>Stay In The Loop.</h2>
+                <p>
+                    Join our list for new hat releases, upcoming collections,
+                    and Ridgeline updates.
+                </p>
+            </div>
+
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email" required>
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    placeholder="Tell us what you think..."
+                    required
+                ></textarea>
+
+                <button type="submit">Submit</button>
+
+                <p id="formMessage"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ridgeline Hat Co. All Rights Reserved.</p>
+        <button id="topButton">Back To Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
